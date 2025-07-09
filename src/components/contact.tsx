@@ -63,9 +63,7 @@ export const Contact = () => {
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
               asChild
             >
-              <Link href="mailto:gousigavs@gmail.com">
-                gousigavs@gmail.com
-              </Link>
+              <Link href="mailto:gousigavs@gmail.com">gousigavs@gmail.com</Link>
             </Button>{' '}
             or through this form.
           </>

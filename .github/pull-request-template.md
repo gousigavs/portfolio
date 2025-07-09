@@ -1,6 +1,6 @@
 ### Issue 😱:
 
-Closes https://github.com/gousigavs/portfolio/issues 
+Closes https://github.com/gousigavs/portfolio/issues
 
 ### What has been done ✅:
 

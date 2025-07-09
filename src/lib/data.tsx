@@ -95,14 +95,15 @@ export const experiencesData = [
         >
           heritage-explorer.in
         </Link>{' '}
-        — an AI-powered platform for exploring heritage sites. Responsible for frontend architecture, performance optimization, and voice assistant UI integration.
+        — an AI-powered platform for exploring heritage sites. Responsible for
+        frontend architecture, performance optimization, and voice assistant UI
+        integration.
       </>
     ),
     period: '2024 - present',
     technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Whisper', 'Mapbox'],
   },
 ] as const;
-
 
 export const skillsData = [
   { icon: <Icons.html className="size-12" /> },
