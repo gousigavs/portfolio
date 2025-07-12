@@ -1,11 +1,15 @@
 import { About } from '@/components/about';
+import { CertificationSlideshow } from '@/components/certification';
 import { Contact } from '@/components/contact';
+import { Education } from '@/components/education';
 import { Experience } from '@/components/experience';
 import { Footer } from '@/components/footer';
 import { Header } from '@/components/header';
 import { Intro } from '@/components/intro';
 import { Projects } from '@/components/projects';
 import { SectionDivider } from '@/components/section-divider';
+import { Skills } from '@/components/skills';
+import { SkillsSection } from '@/components/skillssection';
 import { ThemeToggle } from '@/components/theme-toggle';
 
 const HomePage = async () => {
@@ -16,8 +20,11 @@ const HomePage = async () => {
         <Intro />
         <SectionDivider />
         <About />
+        <SkillsSection />
         <Experience />
+        <Education />
         <Projects />
+        <CertificationSlideshow />
         <Contact />
         <Footer />
       </div>

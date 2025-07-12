@@ -12,6 +12,9 @@ import {
   Moon,
   Star,
   Sun,
+  GraduationCap,
+  ChevronLeft,
+  ChevronRight
 } from 'lucide-react';
 
 export const Icons = {
@@ -26,6 +29,9 @@ export const Icons = {
   star: Star,
   calendar: Calendar,
   building: Building2,
+  graduationCap: GraduationCap,
+  chevronLeft: ChevronLeft,
+  chevronRight: ChevronRight,
   audiophile: (props: LucideProps) => (
     <svg
       width="64"
