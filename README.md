@@ -29,6 +29,8 @@ My personal portfolio website built using **Next.js**, **Tailwind CSS**, and **F
 - [React Hook Form](https://react-hook-form.com/)
 - [Resend](https://resend.com/) (email service for contact form)
 
+---
+
 ## 📬 Contact
 
 If you encounter any issues or have questions, feel free to reach out:  
