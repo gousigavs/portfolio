@@ -8,7 +8,6 @@ import { Header } from '@/components/header';
 import { Intro } from '@/components/intro';
 import { Projects } from '@/components/projects';
 import { SectionDivider } from '@/components/section-divider';
-import { Skills } from '@/components/skills';
 import { SkillsSection } from '@/components/skillssection';
 import { ThemeToggle } from '@/components/theme-toggle';
 

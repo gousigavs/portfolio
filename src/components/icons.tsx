@@ -4,17 +4,17 @@ import {
   Building2,
   Calendar,
   ChevronDown,
+  ChevronLeft,
+  ChevronRight,
   Download,
   ExternalLink,
   Github,
+  GraduationCap,
   Linkedin,
   LucideProps,
   Moon,
   Star,
   Sun,
-  GraduationCap,
-  ChevronLeft,
-  ChevronRight
 } from 'lucide-react';
 
 export const Icons = {

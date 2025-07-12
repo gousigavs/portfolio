@@ -87,13 +87,15 @@ export const experiencesData = [
   //   period: '2024 - present',
   //   technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Whisper', 'Mapbox'],
   // },
-    {
+  {
     title: 'Devops Intern',
     company: 'CDC IT Solutions Private Limitied, Chennai',
     description: (
       <>
-        My DevOps internship provided hands-on experience with CI/CD pipelines, containerization, and cloud infrastructure. 
-        I collaborated with cross-functional teams to streamline deployment workflows and enhance system reliability.
+        My DevOps internship provided hands-on experience with CI/CD pipelines,
+        containerization, and cloud infrastructure. I collaborated with
+        cross-functional teams to streamline deployment workflows and enhance
+        system reliability.
       </>
     ),
     period: '2023 - 2024',
@@ -101,15 +103,16 @@ export const experiencesData = [
   },
 ] as const;
 
-
 export const educationData = [
   {
     title: 'Bachelor of Engineering - Computer Science',
     company: 'Sri Venkateswara College of Engineering, Sriperumbudur',
     description: (
       <>
-        Pursuing a Bachelor's degree in Computer Science, focusing on core programming, system design, and emerging technologies.
-        Developed multiple projects integrating software development with AI and cloud computing.
+        Pursuing a Bachelor's degree in Computer Science, focusing on core
+        programming, system design, and emerging technologies. Developed
+        multiple projects integrating software development with AI and cloud
+        computing.
       </>
     ),
     period: '2021 - 2025',
@@ -117,12 +120,14 @@ export const educationData = [
     score: '9.33 CGPA',
   },
   {
-    title: 'Grade 12 - All India Senior School Certificate Examination (AISSCE)',
-    company: 'St. John\'s English School and Junior College, Chennai',
+    title:
+      'Grade 12 - All India Senior School Certificate Examination (AISSCE)',
+    company: "St. John's English School and Junior College, Chennai",
     description: (
       <>
-        Completed Higher Secondary with a strong foundation in Mathematics, Physics, and Computer Science. 
-        Actively participated in academic and technical competitions.
+        Completed Higher Secondary with a strong foundation in Mathematics,
+        Physics, and Computer Science. Actively participated in academic and
+        technical competitions.
       </>
     ),
     period: '2019 - 2021',
@@ -131,11 +136,12 @@ export const educationData = [
   },
   {
     title: 'Grade 10 - All India Secondary School Examination (AISSE)',
-    company: 'St. John\'s English School and Junior College, Chennai',
+    company: "St. John's English School and Junior College, Chennai",
     description: (
       <>
-        Successfully completed SSLC with consistent academic excellence and strong analytical skills.
-        Built early interest in computer technology and logical reasoning.
+        Successfully completed SSLC with consistent academic excellence and
+        strong analytical skills. Built early interest in computer technology
+        and logical reasoning.
       </>
     ),
     period: '2018 - 2019',
@@ -143,7 +149,6 @@ export const educationData = [
     score: '97.8%',
   },
 ] as const;
-
 
 export const skillsData = [
   { icon: <Icons.html className="size-12" /> },
@@ -160,13 +165,13 @@ export const skillsData = [
   { icon: <Icons.docker className="size-12" /> },
 ] as const;
 
-
 export const certificationsData = [
   {
     title: 'AWS Cloud Practitioner Essentials',
     issuer: 'Amazon Web Services (AWS)',
     date: 'March 2024',
-    description: 'Gained foundational cloud knowledge, covering AWS services, architecture, and security best practices.',
+    description:
+      'Gained foundational cloud knowledge, covering AWS services, architecture, and security best practices.',
     certificateUrl: 'https://example.com/aws-certificate',
     imageUrl: '/images/image.png',
   },
@@ -174,7 +179,8 @@ export const certificationsData = [
     title: 'DevOps with Docker',
     issuer: 'Udemy',
     date: 'January 2024',
-    description: 'Hands-on experience in Docker, container orchestration, and image deployment strategies.',
+    description:
+      'Hands-on experience in Docker, container orchestration, and image deployment strategies.',
     certificateUrl: 'https://example.com/docker-certificate',
     imageUrl: '/images/image.png',
   },
@@ -182,17 +188,25 @@ export const certificationsData = [
     title: 'Git & GitHub Mastery',
     issuer: 'Coursera',
     date: 'February 2023',
-    description: 'Mastered version control concepts, branching, pull requests, and collaborative GitHub workflows.',
+    description:
+      'Mastered version control concepts, branching, pull requests, and collaborative GitHub workflows.',
     certificateUrl: 'https://example.com/git-certificate',
     imageUrl: '/images/image.png',
   },
 ] as const;
 
-
 export const skills = [
   {
     category: 'Frontend',
-    skills: ['React', 'Next.js', 'Tailwind CSS', 'HTML5', 'CSS3', 'JavaScript', 'Framer Motion'],
+    skills: [
+      'React',
+      'Next.js',
+      'Tailwind CSS',
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'Framer Motion',
+    ],
   },
   {
     category: 'Backend',
