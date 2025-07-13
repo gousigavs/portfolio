@@ -33,27 +33,51 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/project-portfolio.webp',
+    image: '/images/portfolio.jpg',
     title: 'DevPortfolio',
     description:
       'A modern portfolio template built with React, showcasing developer profiles, skills, projects, and blogs. Fully responsive and customizable.',
-    technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'EmailJS'],
+    technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'Resend'],
     links: {
-      preview: 'https://devportfolio-demo.vercel.app',
-      github: 'https://github.com/gousiga/devportfolio',
-      githubApi: 'https://api.github.com/repos/gousiga/devportfolio',
+      preview: 'https://gousigavs.vercel.app',
+      github: 'https://github.com/gousigavs/portfolio',
+      githubApi: 'https://api.github.com/repos/gousigavs/portfolio',
     },
   },
   {
-    image: '/images/project-chatapp.webp',
-    title: 'ChatSphere',
+    image: '/images/multilingual.png',
+    title: 'Multilingual Heritage Assistant',
     description:
-      'A real-time chat application with private rooms, emoji support, and status indicators. Built using socket-based communication and modern UI.',
-    technologies: ['Next.js', 'Socket.IO', 'Tailwind', 'TypeScript', 'MongoDB'],
+      'The Multilingual Heritage Assistant is an AI-powered voice assistant designed to provide personalized cultural and historical insights about Tamil Nadu heritage sites in over 20 Indian languages.',
+    technologies: ['Flutter', 'Python', 'Flask', 'SQLite', 'LLM'],
     links: {
-      preview: 'https://chatsphere.vercel.app',
-      github: 'https://github.com/gousiga/chatsphere',
-      githubApi: 'https://api.github.com/repos/gousiga/chatsphere',
+      preview: 'https://multilingual.vercel.app',
+      github: 'https://github.com/gousigavs/heritage_assistant',
+      githubApi: 'https://api.github.com/repos/gousigavs/heritage_assistant',
+    },
+  },
+  {
+    image: '/images/fitness.png',
+    title: 'Fitness App',
+    description:
+      'Fitness Tracker App helps users monitor workouts, set goals, and track progress in real-time. It offers personalized routines, performance stats, and reminders to stay consistent.',
+    technologies: ['Android Studio', 'Java', 'Firebase', 'XML'],
+    links: {
+      preview: 'https://github.com/gousigavs/fitness-app',
+      github: 'https://github.com/gousigavs/fitness-app',
+      githubApi: 'https://api.github.com/repos/gousigavs/fitness-app',
+    },
+  },
+  {
+    image: '/images/ehr.png',
+    title: 'Secure EHR Management System',
+    description:
+      'It enables safe storage, retrieval, and sharing of electronic health records with role-based access control. It ensures patient data privacy through end-to-end encryption and secure authentication.',
+    technologies: ['HTML', 'CSS', 'Flask', 'Python'],
+    links: {
+      preview: 'https://github.com/gousigavs/ehr',
+      github: 'https://github.com/gousigavs/ehr',
+      githubApi: 'https://api.github.com/repos/gousigavs/ehr',
     },
   },
 ] as const;
@@ -161,35 +185,109 @@ export const skillsData = [
   { icon: <Icons.docker className="size-12" /> },
 ] as const;
 
+
 export const certificationsData = [
+  {
+    title: 'Industrial Visit Programme',
+    issuer: 'BSNL, Rajiv Gandhi Memorial Telecom Training Centre',
+    date: 'May 2023',
+    description:
+      'Participated in an industrial visit to gain insight into telecom infrastructure and operations.',
+    certificateUrl: 'https://drive.google.com/file/d/1KyTr0Bt4v1uCgM0wz7RGwkmfvhxyJYuH/view?usp=drive_link',
+    imageUrl: '/images/certificates/bsnl.png',
+  },
+  {
+    title: 'Machine Learning Workshop - EM TECH 2.0',
+    issuer: 'C2C Club, SVCE',
+    date: 'May 2022',
+    description:
+      'Attended hands-on sessions on core machine learning concepts and applications.',
+    certificateUrl: 'https://drive.google.com/file/d/1cvnJDmdXT0ThkkMj3a-CwC6cc_xnBHuW/view?usp=drive_link',
+    imageUrl: '/images/certificates/ml.png',
+  },
+  {
+    title: 'Compose Camp Event',
+    issuer: 'Google Developer Student Club - SVCE',
+    date: 'September 2022',
+    description:
+      'Participated in Compose Camp focusing on building Android apps with Jetpack Compose.',
+    certificateUrl: 'https://drive.google.com/file/d/1Jsn_fL4R9EZpvSAKh2C75XmUNV7RdeBH/view?usp=drive_link',
+    imageUrl: '/images/certificates/gdsc.png',
+  },
   {
     title: 'AWS Cloud Practitioner Essentials',
     issuer: 'Amazon Web Services (AWS)',
     date: 'March 2024',
     description:
-      'Gained foundational cloud knowledge, covering AWS services, architecture, and security best practices.',
-    certificateUrl: 'https://example.com/aws-certificate',
-    imageUrl: '/images/image.png',
+      'Completed AWS foundational cloud training including services, architecture, and security.',
+    certificateUrl: 'https://drive.google.com/file/d/1ddm0Bk0SJYajyPZRYa6jmZj5NoRqdcm5/view?usp=drive_link',
+    imageUrl: '/images/certificates/aws.png',
   },
   {
-    title: 'DevOps with Docker',
-    issuer: 'Udemy',
-    date: 'January 2024',
+    title: 'Introduction to Internet of Things',
+    issuer: 'NPTEL',
+    date: 'April 2024',
     description:
-      'Hands-on experience in Docker, container orchestration, and image deployment strategies.',
-    certificateUrl: 'https://example.com/docker-certificate',
-    imageUrl: '/images/image.png',
+      'Achieved 96% in a national-level NPTEL course on IoT covering sensors, protocols, and use cases.',
+    certificateUrl: 'https://drive.google.com/file/d/1c6YEQEjXZOF_eov7acNMO-8XroBcee78/view?usp=drive_link',
+    imageUrl: '/images/certificates/nptel.png',
   },
   {
-    title: 'Git & GitHub Mastery',
-    issuer: 'Coursera',
-    date: 'February 2023',
+    title: 'DevOps Internship',
+    issuer: 'CDC IT Solutions Pvt. Ltd.',
+    date: 'December 2023',
     description:
-      'Mastered version control concepts, branching, pull requests, and collaborative GitHub workflows.',
-    certificateUrl: 'https://example.com/git-certificate',
-    imageUrl: '/images/image.png',
+      'Completed a 30-day internship on DevOps fundamentals and cloud computing practices.',
+    certificateUrl: 'https://drive.google.com/file/d/1CtwJtYoZcg4hPTprtdpQULFV6Dcv72av/view?usp=drive_link',
+    imageUrl: '/images/certificates/devops.png',
+  },
+  {
+    title: 'Java Foundation Certification',
+    issuer: 'Infosys Springboard',
+    date: 'May 2024',
+    description:
+      'Certified in core Java programming fundamentals through Infosys Springboard.',
+    certificateUrl: 'https://drive.google.com/file/d/19xdk_7ALnGo6UzgLjQySpoECtkrZEzJl/view?usp=drive_link',
+    imageUrl: '/images/certificates/infy.png',
+  },
+  {
+    title: 'Data Structures and Algorithms using Java',
+    issuer: 'Infosys Springboard',
+    date: 'May 2024',
+    description:
+      'Learned and applied key DSA concepts using Java through structured hands-on content.',
+    certificateUrl: 'https://drive.google.com/file/d/1HDu65dKOww0lc8wGL7JMHi_UZ0A1_dLa/view?usp=drive_link',
+    imageUrl: '/images/certificates/infy.png',
+  },
+  {
+    title: 'Programming using Java',
+    issuer: 'Infosys Springboard',
+    date: 'May 2024',
+    description:
+      'Completed a practical programming course covering OOP and Java syntax.',
+    certificateUrl: 'https://drive.google.com/file/d/1B58729EQAOO5t4OpyliGoMAoBdnh8P2x/view?usp=drive_link',
+    imageUrl: '/images/certificates/infy.png',
+  },
+  {
+    title: 'ISTE Tamil Nadu Section Convention',
+    issuer: 'ISTE & SVCE',
+    date: 'April 2023',
+    description:
+      'Presented paper on "Green Cloud Computing".',
+    certificateUrl: 'https://drive.google.com/file/d/1GnM-1e3M3aXacOD7zTZJ-gKPCoBeOs3V/view?usp=drive_link',
+    imageUrl: '/images/certificates/iste.png',
+  },
+  {
+    title: 'ICICRCET 25',
+    issuer: '1st International Conference on Innovative Computing Research and Cutting Edge Technologies in Computer Science',
+    date: 'May 2025',
+    description:
+      'Presented paper on "Multilingual Heritage Assistant Using Recurrent Location-Aware Transformer Approach.',
+    certificateUrl: 'https://drive.google.com/file/d/1D8buVChmN-7X4fsid4EdOYiKO7e2zAmL/view?usp=sharing',
+    imageUrl: '/images/certificates/svce.png',
   },
 ] as const;
+
 
 export const skills = [
   {

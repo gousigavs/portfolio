@@ -1,4 +1,4 @@
-import { Inter, JetBrains_Mono, Plus_Jakarta_Sans } from 'next/font/google';
+import { Inter, JetBrains_Mono, Plus_Jakarta_Sans, Fascinate_Inline } from 'next/font/google';
 
 const fontSans = Inter({
   subsets: ['latin'],
@@ -15,8 +15,15 @@ const fontHeading = Plus_Jakarta_Sans({
   variable: '--font-heading',
 });
 
+const dancing =  Fascinate_Inline ({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-dancing',
+});
+
 export const fonts = [
   fontSans.variable,
   fontMono.variable,
   fontHeading.variable,
+  dancing.variable,
 ];
