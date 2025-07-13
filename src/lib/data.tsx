@@ -33,7 +33,7 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/portfolio.jpg',
+    image: '/images/portfolio.png',
     title: 'DevPortfolio',
     description:
       'A modern portfolio template built with React, showcasing developer profiles, skills, projects, and blogs. Fully responsive and customizable.',
