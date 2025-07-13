@@ -129,7 +129,7 @@ export const educationData = [
     company: 'Sri Venkateswara College of Engineering, Sriperumbudur',
     description: (
       <>
-        Pursuing a Bachelor's degree in Computer Science, focusing on core
+        Pursuing a Bachelor&apos;s degree in Computer Science, focusing on core
         programming, system design, and emerging technologies. Developed
         multiple projects integrating software development with AI and cloud
         computing.
@@ -185,7 +185,6 @@ export const skillsData = [
   { icon: <Icons.docker className="size-12" /> },
 ] as const;
 
-
 export const certificationsData = [
   {
     title: 'Industrial Visit Programme',
@@ -193,7 +192,8 @@ export const certificationsData = [
     date: 'May 2023',
     description:
       'Participated in an industrial visit to gain insight into telecom infrastructure and operations.',
-    certificateUrl: 'https://drive.google.com/file/d/1KyTr0Bt4v1uCgM0wz7RGwkmfvhxyJYuH/view?usp=drive_link',
+    certificateUrl:
+      'https://drive.google.com/file/d/1KyTr0Bt4v1uCgM0wz7RGwkmfvhxyJYuH/view?usp=drive_link',
     imageUrl: '/images/certificates/bsnl.png',
   },
   {
@@ -202,7 +202,8 @@ export const certificationsData = [
     date: 'May 2022',
     description:
       'Attended hands-on sessions on core machine learning concepts and applications.',
-    certificateUrl: 'https://drive.google.com/file/d/1cvnJDmdXT0ThkkMj3a-CwC6cc_xnBHuW/view?usp=drive_link',
+    certificateUrl:
+      'https://drive.google.com/file/d/1cvnJDmdXT0ThkkMj3a-CwC6cc_xnBHuW/view?usp=drive_link',
     imageUrl: '/images/certificates/ml.png',
   },
   {
@@ -211,7 +212,8 @@ export const certificationsData = [
     date: 'September 2022',
     description:
       'Participated in Compose Camp focusing on building Android apps with Jetpack Compose.',
-    certificateUrl: 'https://drive.google.com/file/d/1Jsn_fL4R9EZpvSAKh2C75XmUNV7RdeBH/view?usp=drive_link',
+    certificateUrl:
+      'https://drive.google.com/file/d/1Jsn_fL4R9EZpvSAKh2C75XmUNV7RdeBH/view?usp=drive_link',
     imageUrl: '/images/certificates/gdsc.png',
   },
   {
@@ -220,7 +222,8 @@ export const certificationsData = [
     date: 'March 2024',
     description:
       'Completed AWS foundational cloud training including services, architecture, and security.',
-    certificateUrl: 'https://drive.google.com/file/d/1ddm0Bk0SJYajyPZRYa6jmZj5NoRqdcm5/view?usp=drive_link',
+    certificateUrl:
+      'https://drive.google.com/file/d/1ddm0Bk0SJYajyPZRYa6jmZj5NoRqdcm5/view?usp=drive_link',
     imageUrl: '/images/certificates/aws.png',
   },
   {
@@ -229,7 +232,8 @@ export const certificationsData = [
     date: 'April 2024',
     description:
       'Achieved 96% in a national-level NPTEL course on IoT covering sensors, protocols, and use cases.',
-    certificateUrl: 'https://drive.google.com/file/d/1c6YEQEjXZOF_eov7acNMO-8XroBcee78/view?usp=drive_link',
+    certificateUrl:
+      'https://drive.google.com/file/d/1c6YEQEjXZOF_eov7acNMO-8XroBcee78/view?usp=drive_link',
     imageUrl: '/images/certificates/nptel.png',
   },
   {
@@ -238,7 +242,8 @@ export const certificationsData = [
     date: 'December 2023',
     description:
       'Completed a 30-day internship on DevOps fundamentals and cloud computing practices.',
-    certificateUrl: 'https://drive.google.com/file/d/1CtwJtYoZcg4hPTprtdpQULFV6Dcv72av/view?usp=drive_link',
+    certificateUrl:
+      'https://drive.google.com/file/d/1CtwJtYoZcg4hPTprtdpQULFV6Dcv72av/view?usp=drive_link',
     imageUrl: '/images/certificates/devops.png',
   },
   {
@@ -247,7 +252,8 @@ export const certificationsData = [
     date: 'May 2024',
     description:
       'Certified in core Java programming fundamentals through Infosys Springboard.',
-    certificateUrl: 'https://drive.google.com/file/d/19xdk_7ALnGo6UzgLjQySpoECtkrZEzJl/view?usp=drive_link',
+    certificateUrl:
+      'https://drive.google.com/file/d/19xdk_7ALnGo6UzgLjQySpoECtkrZEzJl/view?usp=drive_link',
     imageUrl: '/images/certificates/infy.png',
   },
   {
@@ -256,7 +262,8 @@ export const certificationsData = [
     date: 'May 2024',
     description:
       'Learned and applied key DSA concepts using Java through structured hands-on content.',
-    certificateUrl: 'https://drive.google.com/file/d/1HDu65dKOww0lc8wGL7JMHi_UZ0A1_dLa/view?usp=drive_link',
+    certificateUrl:
+      'https://drive.google.com/file/d/1HDu65dKOww0lc8wGL7JMHi_UZ0A1_dLa/view?usp=drive_link',
     imageUrl: '/images/certificates/infy.png',
   },
   {
@@ -265,29 +272,31 @@ export const certificationsData = [
     date: 'May 2024',
     description:
       'Completed a practical programming course covering OOP and Java syntax.',
-    certificateUrl: 'https://drive.google.com/file/d/1B58729EQAOO5t4OpyliGoMAoBdnh8P2x/view?usp=drive_link',
+    certificateUrl:
+      'https://drive.google.com/file/d/1B58729EQAOO5t4OpyliGoMAoBdnh8P2x/view?usp=drive_link',
     imageUrl: '/images/certificates/infy.png',
   },
   {
     title: 'ISTE Tamil Nadu Section Convention',
     issuer: 'ISTE & SVCE',
     date: 'April 2023',
-    description:
-      'Presented paper on "Green Cloud Computing".',
-    certificateUrl: 'https://drive.google.com/file/d/1GnM-1e3M3aXacOD7zTZJ-gKPCoBeOs3V/view?usp=drive_link',
+    description: 'Presented paper on "Green Cloud Computing".',
+    certificateUrl:
+      'https://drive.google.com/file/d/1GnM-1e3M3aXacOD7zTZJ-gKPCoBeOs3V/view?usp=drive_link',
     imageUrl: '/images/certificates/iste.png',
   },
   {
     title: 'ICICRCET 25',
-    issuer: '1st International Conference on Innovative Computing Research and Cutting Edge Technologies in Computer Science',
+    issuer:
+      '1st International Conference on Innovative Computing Research and Cutting Edge Technologies in Computer Science',
     date: 'May 2025',
     description:
       'Presented paper on "Multilingual Heritage Assistant Using Recurrent Location-Aware Transformer Approach.',
-    certificateUrl: 'https://drive.google.com/file/d/1D8buVChmN-7X4fsid4EdOYiKO7e2zAmL/view?usp=sharing',
+    certificateUrl:
+      'https://drive.google.com/file/d/1D8buVChmN-7X4fsid4EdOYiKO7e2zAmL/view?usp=sharing',
     imageUrl: '/images/certificates/svce.png',
   },
 ] as const;
-
 
 export const skills = [
   {

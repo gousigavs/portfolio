@@ -42,15 +42,12 @@ export const Intro = () => {
             animate={{ opacity: 1, y: 0 }}
             className="font-handwriting max-w-3xl text-4xl font-extrabold md:text-5xl"
           >
-            <span className="font-handwriting text-5x">Hi</span>{' '}
-            I&#39;m a{' '}
+            <span className="font-handwriting text-5x">Hi</span> I&#39;m a{' '}
             <span className="bg-gradient-to-r from-purple-700 to-purple-600 bg-clip-text text-transparent">
               Software
             </span>{' '}
             developer creating scalable applications.
           </motion.h1>
-
-
 
           <motion.p
             initial={{ opacity: 0, y: 100 }}
@@ -112,7 +109,6 @@ export const Intro = () => {
           transition={{ delay: 0.2 }}
           className="relative size-60 overflow-hidden rounded-full border-4 border-purple-500 shadow-xl md:size-80"
         >
-
           <Image
             src="/images/profile-pic.png" // 🔁 Replace with your image path
             alt="Gousiga Profile"

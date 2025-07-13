@@ -37,7 +37,7 @@ export const Project = ({ project, index }: TProps) => {
       whileInView="animate"
       viewport={{ once: true }}
       custom={index}
-      className="w-full md:w-[48%] h-[470px] flex flex-col justify-between rounded border p-4 bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 shadow-md dark:shadow-lg transition-colors duration-300"
+      className="flex h-[470px] w-full flex-col justify-between rounded border border-zinc-200 bg-white p-4 shadow-md transition-colors duration-300 md:w-[48%] dark:border-zinc-700 dark:bg-zinc-900 dark:shadow-lg"
     >
       <Link
         href={links.github}
@@ -46,28 +46,28 @@ export const Project = ({ project, index }: TProps) => {
         className="block"
       >
         {/* Blurred Border Container */}
-        <div className="relative w-full h-[250px] rounded-xl overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/30 before:to-white/10 before:blur-md before:z-[-1] dark:before:from-zinc-800/30 dark:before:to-zinc-700/10">
+        <div className="relative h-[250px] w-full overflow-hidden rounded-xl before:absolute before:inset-0 before:z-[-1] before:bg-gradient-to-br before:from-white/30 before:to-white/10 before:blur-md dark:before:from-zinc-800/30 dark:before:to-zinc-700/10">
           <Image
             src={image}
             alt={title}
             fill
-            className="object-cover rounded-xl transition-transform duration-300 hover:scale-105"
+            className="rounded-xl object-cover transition-transform duration-300 hover:scale-105"
           />
         </div>
       </Link>
 
-      <div className="flex flex-col justify-between flex-grow mt-3">
+      <div className="mt-3 flex grow flex-col justify-between">
         <h3 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">
           {title}
         </h3>
-        <p className="text-sm mt-2 mb-3 text-zinc-600 dark:text-zinc-400 line-clamp-3">
+        <p className="mb-3 mt-2 line-clamp-3 text-sm text-zinc-600 dark:text-zinc-400">
           {description}
         </p>
-        <div className="flex flex-wrap gap-2 mt-auto">
+        <div className="mt-auto flex flex-wrap gap-2">
           {technologies.map((tech) => (
             <span
               key={tech}
-              className="rounded-full border px-3 py-1 text-sm border-zinc-300 dark:border-zinc-600 bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-200"
+              className="rounded-full border border-zinc-300 bg-zinc-100 px-3 py-1 text-sm text-zinc-700 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-200"
             >
               {tech}
             </span>

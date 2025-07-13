@@ -2,12 +2,11 @@
 
 import React, { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import Image from 'next/image';
 
 import { SectionHeading } from './section-heading';
 
 import { certificationsData } from '@/lib/data';
-
-import Image from 'next/image';
 
 export const CertificationSlideshow = () => {
   const [current, setCurrent] = useState(0);
@@ -45,12 +44,12 @@ export const CertificationSlideshow = () => {
           >
             <div className="flex flex-col items-center gap-6 md:flex-row">
               <Image
-                    src={currentData.imageUrl}
-                    alt={currentData.title}
-                    width={128}
-                    height={128}
-                    className="w-32 h-32 object-contain rounded-md shadow-md border"
-                    />
+                src={currentData.imageUrl}
+                alt={currentData.title}
+                width={128}
+                height={128}
+                className="size-32 rounded-md border object-contain shadow-md"
+              />
               <div className="space-y-2 text-center md:text-left">
                 <h3 className="text-xl font-semibold">{currentData.title}</h3>
                 <p className="text-muted-foreground text-sm">
